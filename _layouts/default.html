@@ -1,12 +1,39 @@
+---
+navigation:
+- text: Accommodation
+  url: /accommodation.html
+- text: Travel
+  url: /travel.html
+- text: FAQ
+  url: /faq.html
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>{{ page.title }}</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <meta charset="UTF-8">
 </head>
 <body>
-  {{ content }}
+	<div class="navbar navbar-static-top">
+		<div class="navbar-inner">
+			<a class="brand" href="/">James &amp; Zoe's Wedding Day</a>
+			<ul class="nav">
+        {% for link in page.navigation %}
+          <li {% if page.url == link.url %}class = "active"{% endif %}>
+            <a href="{{ link.url }}">{{ link.text }}</a>
+          </li>
+        {% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		{{ content }}
+  </div>
   <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    $('.carousel').carousel();
+  </script>
 </body>
 </html>

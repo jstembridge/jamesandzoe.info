@@ -1,0 +1,59 @@
+---
+layout: front
+title: James & Zoe's Wedding Day
+permalink: /
+images: 
+- //lh3.googleusercontent.com/-65WVUSanFIE/UOBzH5aLkvI/AAAAAAAADNc/5wOnKt__g2o/
+- //lh5.googleusercontent.com/-lNYUT-C23F0/UOBzJU-7mxI/AAAAAAAADNk/9rZTX3DZqf8/
+- //lh3.googleusercontent.com/-fK105obwUWk/UOBzLnloWgI/AAAAAAAADNw/v8qf9vHeWZ8/
+- //lh5.googleusercontent.com/-8wKoZcxPN8o/UOBzMt0mawI/AAAAAAAADOA/QzYRBzzUeyU/
+- //lh3.googleusercontent.com/-B9GbG-EiCV8/UOBzM7pbpKI/AAAAAAAADOE/FYUJcGYq5Ec/
+- //lh3.googleusercontent.com/-KWH8Kxj6MUo/UOBzNRbFi2I/AAAAAAAADOQ/tQUdvhIde2Q/
+- //lh5.googleusercontent.com/-p-pbaY6Gcyg/UOBzNniuyOI/AAAAAAAADOY/QEdjEXjmb60/
+- //lh4.googleusercontent.com/-C4Cm3dqgNLU/UOBzQ93Ye3I/AAAAAAAADPg/s7j3T7jsZ44/
+imageSize: w960-h500-p
+---
+<div class="page-header">
+  <h1>The Wedding Day
+  <h3 class="muted">1pm at St. Wilfrid's Church, York and afterwards at The Abbey Inn, Byland</h3>
+</div>
+<div class="carousel slide">
+  <div class="carousel-inner">
+    {% for image in page.images %}
+      <div class="item {% if forloop.first %}active{% endif %}">
+        <img src="{{ image }}{{ page.imageSize }}/" alt="">
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="row" style="margin-bottom:20px;">
+  <div class="span4">
+    <address>
+      <strong>St Wilfrid's Catholic Church</strong><br>
+      11 High Petergate<br>
+      York<br>
+      YO1 7EN
+    </address>
+  </div>
+  <div class="span8">
+    <a href="https://maps.google.co.uk/maps?cid=8094164737290437598" target="_blank">
+      <img src="//maps.googleapis.com/maps/api/staticmap?markers=53.96178,-1.08477&size=620x200&zoom=14&sensor=false" alt="">
+    </a>
+  </div>
+</div>
+<div class="row" style="margin-bottom:20px;">
+  <div class="span4">
+  	<address>
+    	<strong>The Abbey Inn</strong><br>
+    	Byland<br>
+    	Coxwold<br>
+      YO61 4BD
+    </address>
+  </div>
+  <div class="span8">
+    <a href="https://maps.google.co.uk/maps?cid=10828506253370118399" target="_blank">
+      <img src="//maps.googleapis.com/maps/api/staticmap?markers=54.20350,-1.16060&size=620x200&zoom=14&sensor=false" alt="">
+    </a>
+  </div>
+</div>
+
