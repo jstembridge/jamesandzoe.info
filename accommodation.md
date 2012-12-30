@@ -87,7 +87,7 @@ imageSize: w290-h190-n
   	<div class="thumbnail">
   		<a href="http://www.ace-hotelyork.co.uk/">
   			<img src="//lh3.googleusercontent.com/-PHWfOLYKylw/UKNqoKkWFrI/AAAAAABj4Gs/aWF6c-6mEBY/{{ page.imageSize }}/" alt="">
-  			<h4>Ace Youth Yostel</h4>
+  			<h4>Ace Hostel</h4>
   		</a>
   		<small>15 minutes walk to church</small>
   	</div>
