@@ -2,7 +2,7 @@
 layout: page
 title: Travel
 ---
-<p class="lead">We have arranged coach transport from the church to Byland Abbey, returning to York at 12 midnight. If you wish to leave earlier (boo), please pre-book a taxi.</p>
+<p class="lead">We have arranged bus transport from the church to Byland Abbey, returning to York at 12 midnight. If you wish to leave earlier (boo), please pre-book a taxi.</p>
 
 ### Trains
 
